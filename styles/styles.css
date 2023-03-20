@@ -129,7 +129,7 @@ main {
   text-decoration: none;
   padding-left: 24px;
   max-width: 200px;
-  background-image: url(../images/phone.svg);
+  background-image: url("../images/assets/icon-phone.svg");
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: center left;
@@ -309,7 +309,7 @@ main {
   color: #f1f5f7;
   padding-left: 27px;
   padding-right: 2px;
-  background-image: url(../images/login.svg);
+  background-image: url("../images/assets/icon-login.svg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: 16px 16px;
@@ -327,7 +327,7 @@ main {
 
 .log-in-button:hover {
   opacity: 0.6;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .log-in-button:active {
@@ -405,7 +405,7 @@ main {
 .footer-input-subscription:hover {
   color: #293449;
   border-color: #63a63e;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
   box-shadow: none;
 }
 
@@ -414,7 +414,8 @@ main {
 .footer-input-subscription:focus {
   color: #293449;
   border-color: #63a63e;
-  box-shadow: 0 0 0 1px #ffbf47 outline: none;
+  box-shadow: 0 0 0 1px #ffbf47;
+  outline: none;
 }
 
 .dropdown-input:disabled,
@@ -468,7 +469,7 @@ main {
 
 .dropdown-checkbox:checked + .dropdown-checkbox-mark,
 .checkbox-input:checked + .control-checkbox {
-  background-image: url("../images/checkbox-checked.svg");
+  background-image: url("../images/assets/icon-checkbox.svg");
 }
 
 .dropdown-checkbox:focus + .dropdown-checkbox-mark,
@@ -484,7 +485,7 @@ main {
 
 .dropdown-checkbox:checked + .dropdown-checkbox-mark:hover,
 .checkbox-input:checked + .control-checkbox:hover {
-  background-image: url("../images/checkbox-checked-hover.svg");
+  background-image: url("../images/assets/icon-checkbox-hover.svg");
 }
 
 .dropdown-checkbox-mark:disabled,
@@ -494,7 +495,7 @@ main {
 
 .dropdown-checkbox:checked + .dropdown-checkbox-mark:disabled,
 .checkbox-input:checked + .control-checkbox:disabled {
-  background-image: url("../images/checkbox-checked-disabled.svg");
+  background-image: url("../images/assets/icon-checkbox-disabled.svg");
 }
 
 .interaction-name:disabled,
@@ -524,7 +525,7 @@ main {
 }
 
 .button-green-in {
-  background-image: url(../images/login.svg);
+  background-image: url("../images/assets/icon-login.svg");
   background-position: center left 24px;
   background-size: 16px 16px;
   padding: 9px 10px 9px 31px;
@@ -533,7 +534,7 @@ main {
 
 .button-green:hover {
   background-color: #5fbb2d;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .button-green:active {
@@ -557,7 +558,7 @@ main {
 
 .button-white:hover {
   border-color: #3d546f;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .button-white:active {
@@ -574,7 +575,7 @@ main {
   border: 0;
   padding: 0;
   background: none;
-  background-image: url(../images/dropdown-close.svg);
+  background-image: url("../images/assets/icon-dropdown-close.svg");
   background-repeat: no-repeat;
   background-size: contain;
   top: 19px;
@@ -584,7 +585,7 @@ main {
 
 .dropdown-close:hover {
   opacity: 0.6;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .dropdown-close:focus {
@@ -646,7 +647,7 @@ main {
 .menu-user-item:focus {
   background-color: #32425c;
   color: #c5c5c5;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
   outline: none;
 }
 
@@ -676,12 +677,12 @@ main {
 
 .menu-user-item-favorite {
   min-height: 70px;
-  background-image: url(../images/bookmark.svg);
+  background-image: url("../images/assets/icon-bookmark.svg");
 }
 
 .menu-user-item-cart {
   min-height: 70px;
-  background-image: url(../images/cart.svg);
+  background-image: url("../images/assets/icon-cart-transparent.svg");
 }
 
 .button-menu-user {
@@ -738,23 +739,23 @@ main {
 }
 
 .materials::before {
-  background-image: url(../images/assets/icon-materials.svg);
+  background-image: url("../images/assets/icon-materials.svg");
 }
 
 .tooling::before {
-  background-image: url(../images/assets/icon-tooling.svg);
+  background-image: url("../images/assets/icon-tooling.svg");
 }
 
 .technic::before {
-  background-image: url(../images/assets/icon-technic.svg);
+  background-image: url("../images/assets/icon-technic.svg");
 }
 
 .sale::before {
-  background-image: url(../images/assets/icon-sale.svg);
+  background-image: url("../images/assets/icon-sale.svg");
 }
 
 .delivery-white::before {
-  background-image: url(../images/assets/icon-delivery-white.svg);
+  background-image: url("../images/assets/icon-delivery-white.svg");
 }
 
 .services-item {
@@ -799,7 +800,7 @@ main {
 
 .services-button:hover {
   border-color: #3d546f;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
   color: #3d546f;
   box-shadow: none;
 }
@@ -914,7 +915,7 @@ main {
 
 .button-red:hover {
   background-color: #ca2c37;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
   box-shadow: none;
 }
 
@@ -939,7 +940,7 @@ main {
   border: 0;
   color: #ffffff;
   background-color: rgba(41, 52, 73, 0.6);
-  background-image: url(../images/slider-toogle-arrow.svg);
+  background-image: url("../images/assets/slider-toogle-arrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
@@ -957,7 +958,7 @@ main {
 .slider-toogle:hover {
   box-shadow: none;
   background-color: rgba(41, 52, 73, 1);
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .slider-toogle:active {
@@ -1067,7 +1068,7 @@ main {
 
 .filter-button:hover {
   background-color: #518534;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .filter-button:active {
@@ -1173,7 +1174,7 @@ main {
 
 .catalog-button:hover {
   opacity: 0.6;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .catalog-button:disabled {
@@ -1307,7 +1308,7 @@ main {
 
 .products-price-button:hover {
   background-color: #ca2c37;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .products-price-button:hover::after {
@@ -1343,7 +1344,7 @@ main {
   padding: 11px 12px 11px 15px;
   padding-left: 30px;
   border-radius: 0;
-  background-image: url(../images/buttton-buy-cart-icon.svg);
+  background-image: url("../images/assets/icon-cart.svg");
   background-repeat: no-repeat;
   background-position: center left 22px;
   background-size: 14px 14px;
@@ -1415,7 +1416,7 @@ main {
 
 .pagination-link:hover {
   background-color: #32425c;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .pagination-item:active {
@@ -1495,19 +1496,19 @@ main {
   width: 90px;
   height: 90px;
   bottom: 77px;
-  left: 0px;
+  left: 0;
 }
 
 .delivery::before {
-  background-image: url(../images/assets/icon-delivery.svg);
+  background-image: url("../images/assets/icon-delivery.svg");
 }
 
 .guarantees::before {
-  background-image: url(../images/assets/icon-guarantees.svg);
+  background-image: url("../images/assets/icon-guarantees.svg");
 }
 
 .credit::before {
-  background-image: url(../images/assets/icon-credit.svg);
+  background-image: url("../images/assets/icon-credit.svg");
 }
 
 .offers-item-text {
@@ -1558,7 +1559,7 @@ main {
 
 .address-link {
   display: block;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .address-image {
@@ -1622,7 +1623,7 @@ main {
 
 .copyrights-link:hover {
   color: #ffbf47;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
   text-decoration: underline;
 }
 
@@ -1679,15 +1680,15 @@ main {
 }
 
 .socials-link-pinterest {
-  background-image: url(../images/pinterest.svg);
+  background-image: url("../images/social/pinterest.svg");
 }
 
 .socials-link-vk {
-  background-image: url(../images/vk.svg);
+  background-image: url("../images/social/vk.svg");
 }
 
 .socials-link-vsco {
-  background-image: url(../images/vsco.svg);
+  background-image: url("../images/social/vsco.svg");
 }
 
 .socials-link:focus {
@@ -1697,7 +1698,7 @@ main {
 
 .socials-link:hover {
   background-color: #293449;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .footer-feedback {
@@ -1728,7 +1729,7 @@ main {
 
 .footer-feedback-email:hover {
   color: #ffbf47;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
   text-decoration: underline;
 }
 
@@ -1759,7 +1760,7 @@ main {
 
 .subscription-button {
   border-radius: 2px;
-  background-image: url(../images/cart-white.svg);
+  background-image: url("../images/assets/icon-cart-white.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px 18px;
@@ -1783,7 +1784,7 @@ main {
   padding: 9px 0 12px 24px;
   letter-spacing: normal;
   text-transform: capitalize;
-  background-image: url(../images/icon/user.svg);
+  background-image: url("../images/assets/icon-user.svg");
 }
 
 .button-user:focus {
@@ -1793,7 +1794,7 @@ main {
 
 .button-user:hover {
   opacity: 0.6;
-  cursor: url(../images/cursor-pointer.svg), pointer;
+  cursor: url("../images/cursor-pointer.svg"), pointer;
 }
 
 .button-user:active {
@@ -1841,7 +1842,7 @@ main {
 
 .button-log-out {
   margin-left: 15px;
-  background-image: url(../images/login.svg);
+  background-image: url("../images/assets/icon-login.svg");
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
