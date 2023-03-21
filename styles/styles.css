@@ -610,6 +610,11 @@ main {
   margin-bottom: 52px;
 }
 
+.menu-navigation {
+  display: flex;
+  width: 850px;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -688,8 +693,10 @@ main {
 .button-menu-user {
   border-radius: 4px;
   margin-right: 2px;
-  margin-top: -7px;
+  margin-top: 10px;
+  margin-bottom: 18px;
   padding: 12px 13px 12px 12px;
+  max-width: 150px;
 }
 
 .services {
@@ -762,11 +769,12 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px 165px 33px 25px;
+  justify-content: space-between;
 }
 
 .services-button {
   position: relative;
-  display: block;
+  display: flex;
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -779,6 +787,7 @@ main {
   border-color: #ffffff;
   border-radius: 1px;
   padding: 11px 9px 9px 27px;
+  align-items: center;
 }
 
 .services-button-text {
@@ -1882,4 +1891,23 @@ main {
 
 .dropdown-form.is-open {
   display: block;
+}
+
+input[type=text]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type=text]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
 }
